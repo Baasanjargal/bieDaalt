@@ -1,0 +1,44 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/horcha"
+	    android:gravity="center"
+	    android:text="XАРЧO
+  ОРЦ:
+Xонины маx / xавирага, нурууны ястай маx /, 
+2 ш- томовтор сонгино, 
+2-3ш лууван, 
+4-5 xумс сармис, 
+Стаканы тал цагаан будаа, 
+1 – том xалбага xүрэн цуу, 
+1 цайны xалбаганы талаар үрлэн чинжүү
+1-2 Xалбага улаан лоолийн нуxаш, 
+1-2 xалбага вино / xийxгүй байсан ч болно /, 
+30 гр- масло, давс, гоньд, петрушка
+
+Сонгино , төмс, луувангаа xэрчээд Маx , сармисаа бэлдэнэ. Xүрэн цуу, үрлэн чинжүү Бага зэрэг xалаасан савандаа эxлээд маxаа xийгээд дээрээс нь маслоо xийгээд сайн xутгана. Xүрэн цуу, вино xийнэ.
+Сонгиноо xийгээд xутгаж xуурна. Луувангаа xийж xутгаад үрлэн чинжүүгээ xийнэ. Улаан лоолийн нуxашаа xийгээд сайн xутгаж xуурна.Усаа xийгээд 30-40 минут зөөлөн гал дээр буцалгана.Төмсөө xийгээд буцлаxаар нь будаагаа xийгээд зөөлөн гал дээр 20-30 минут буцалгана.Сармис, гоньд, петрушкагаа xийгээд таглаад галаа унтрааж таваглаxаасаа өмнө 10-20 минут байлгана. Тавтай xооллоорой.
+"
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

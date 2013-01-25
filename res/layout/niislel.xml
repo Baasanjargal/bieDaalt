@@ -1,0 +1,42 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/niislel"
+	    android:gravity="center"
+	    android:text="Сала́т Оливье́ буюу нийслэл салат
+Орц: /8-10/
+
+* 700 гр төмс, арилгаад угаагаад шоо хэлбэртэй хэрчсэн
+* 1/2 стакан жижиглэн хэрчсэн цагаан сонгино
+* 2 ш өндөг, чанасан
+* 1 ш том дарсан огурцы
+* 1 стакан вандуй (green peas), лаазалсан эсвэл хөлдөөсөн
+* 1 стакан жижиглэн хэрчсэн мах эсвэл хиам
+* 2 ш лууван, арилгаад шоо хэлбэртэй хэрчсэн
+* 3/4 стакан майонез
+Буцламтгай давстай усанд луувангаа хийж чанана. 3-5 минут чанасаны дараа төмсөө нэмээд зөөлөрч болтол чанана. Болсон төмс луувангаа шүүгээд хүйтэн усаар сойно.
+Хиам, төмс, сонгино, вандуй, огурцы, өндөг, сонгиноо холино.
+Майонезээ нэмээд хутгаад хэрэгтэй гэж үзвэл давс перцээр амтлаад сервислэнэ."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

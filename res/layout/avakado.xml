@@ -1,0 +1,42 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/avakado"
+	    android:gravity="center"
+	    android:text="Авакадо ананасны салат
+Орц: /6-8/
+* 8 стакан салат навч (iceberg)
+* 2 стакан ананас (pineapple chunks)
+* 1 ш дунд зэргийн хэмжээтэй улаан сонгино (red onion), нимгэлэн хэрчсэн
+* 1/3 стакан чидун жимсний тос (extra-virgin olive oil)
+* 1/3 стакан цагаан цуу (white vinegar)
+* 1/3 стакан жүржийн шүүс
+* 1/4 стакан сахар
+* 3/4 амттаны халбага давс
+* 1/2 амттаны халбага перц
+* 2 ш дунд зэргийн хэмжээтэй авакадо (avocado), арилгаад, үрийг нь аваад хэрчэн
+* ногоон лимон (lime wedges)
+Эхний 3 орцоо томхон саванд холино. Тосоо дараагийн 5 орцтой холиж нийцүүлж салад dressing бэлтгэнэ. Хүссэн хэмжээний dressing-ээр салатаа амтлаад таваглаад зүсэн авакадогоо тараан тавиад ногоон лимонтойгоо сервислэнэ."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

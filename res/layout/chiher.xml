@@ -1,0 +1,40 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/chiher"
+	    android:gravity="center"
+	    android:text="Зайрмаг, сироптой лийр
+Орц: /4/
+- 200 гр зайрмаг
+- 4 см лийр
+- хагас лимон
+- 2 стакан элсэн чихэр
+- 2 стакан ус
+- шанц
+Лийрээ цэвэрлээд лимоноор арчина.
+Усаа буцалгаад, сахар нэмж сироп болтол нь буцалгана.
+Лийрээ сиропндоо хийгээд 15 минут чанана.
+Бэлэн болгосон лийрээ өгөхийн өмнө тавган дээр тавьж, шанцаар бүрж, сиропоо дээгүүр нь асгаж, зайрмаг гааны навч зэргээр чимж өгөөрэй."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

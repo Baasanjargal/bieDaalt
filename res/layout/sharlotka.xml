@@ -1,0 +1,45 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/sharlotka"
+	    android:gravity="center"
+	    android:text="Шарлотка
+Орц:
+4-ш өндөг
+1стакан сахар (~170г)
+гурил 1стакан(~100г)
+2жижиг алим 
+бага зэрэг сливочное масло
+ алим аа угаагад хальс хатуу хэсгээсэн салган нарийхан хэрчмээр хэрчэн 
+өндгөө хагалаад миксэр ээр хөөстэй болтлон миксэрдэн 
+дараан бага багаар сахар нэмэнгээ сахар уустал миксэрдэн
+дараан бага багаар гурилаа нэмэн халбагаар сайтар холин 
+бэлтгэх саваа сливочний маслара тослоод дэрээсэн жоохон гурил цацан 
+болсон гурилаа 1/3 хийгээд дэрээсэн хэрчсэн алим аа тавин улдсэн гурилаа дээрэсэн хийн
+урдчилан халаасан духовкондоо (180 градус) хийгээд  35-40минуут болгон 
+болж байгаа хооронд духовкнийхаа хаалгийг онгоолгохгуй байвал сайн
+болсонийг яаж мэдэх вэ гэвэл дээд талан жар өнгөтэй болно
+дотор талийн шалгахийн тулд шүдний чэгчлүүр ээ хатгаж үзээд хуйраа байвал таний шарлотка бэлэн гэсэн үг."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

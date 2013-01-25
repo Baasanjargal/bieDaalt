@@ -1,0 +1,50 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/waldorf"
+	    android:gravity="center"
+	    android:text="Waldorf Салат (жимсний салат)
+Орц:
+
+* 2 ш шар алим (Ginger Gold эсвэл Fuji байвал сайн)
+* 1 ш улаан алим (Red Delicious)
+* 3 амны халбага алмны цуу 
+* 1 стакан майонез 
+* 1 чимх давс
+* хар перц
+* 3/4 стакан хушига, бяцалсан
+* 1 стакан шар үзэм
+* 2 амттаны халбага карри
+* 2 гожгор celery, нимгэлэн хэрчсэн
+* 1/3 стакан шинэхэн гаа, давхарлаж ороогоод хэрчсэн
+* 1/2 ш улаан сонгино, маш нимгэн хэрчсэн
+* 1 ш салатны навч (romaine lettuce)
+
+1. Алимаа угаагаад 4 хуваана. Үрийг нь гэртэй нь аваад алимаа хальстай нь үмхний хэмжээтэй (bite size) хэрчинэ. 
+2. Томхон шилэн саванд хэрчиж бэлтгэсэн алимаа алимны цуутайгаа холино. Майонезаа нэмээд хутгана. Давс перцээр амтлана. 
+3. Хушиг, үзэм, celery, гаа, улаан сонгино, карригаа нэмнэ. Нийцтэл нь хутгана. 
+4. Амтнуудыг нийцүүлэхийн тулд хамгийн багадаа 1 цаг хөргөгчинд байлгана. 
+5. Гаргаж ирээд навч дэвссэн тавган дээр тавиж сервислэнэ."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

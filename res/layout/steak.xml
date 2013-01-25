@@ -1,0 +1,50 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/steak"
+	    android:gravity="center"
+	    android:text="Steak Diane
+Орц: /2/
+* 4 ш нэг бүр нь 85 гр цул мах (filet mignon medallions)
+* 1/2 амттаны халбага давс
+* 1/4 амттаны халбага нунтаг хар перц
+* 1 амны халбага масло
+* 4 амны халбага жижиглэн хэрчсэн сонгино (shallots)
+* 1 амттаны халбага жижиглэн хэрчсэн сармис
+* 1 стакан мөөгний толгой жижиглэн хэрчсэн
+* 1/4 стакан конъяк эсвэл бранди
+* 2 амттаны халбага дижон гич
+* 1/4 стакан крем
+* 1/4 стакан ширгээсэн махны тунгалаг шөл
+* 2 амттаны халбага Worcestershire sauce
+* 2 дусал халуун соус
+* 1 амны халбага жижиглэн хэрчсэн ногоон сонгино
+* 1 амттаны халбага жижиглэн хэрчсэн яншуйн навч
+Махаа эргүүлж тойруулан давс перцээр амтлана.
+Маслоо томхон саванд хайлуулна. Махаа нэмээд нэг талыг борлотол 45 секунд байлгана. Махаа эргүүлээд нөгөө талаар 30 секунд байлгаж борлуулна.
+Сонгино сармисаа хайруулын тавгийн сул хэсэг рүү хийнэ. 20 секунд нэмээд мөөгөө нэмж зөөлөртөл нь 2 минут хуурна. Махаа гарган томхон тавган дээр хучиж тавина.
+Хайруулын тавгаа хазайлгаж байгаад брандигаа нэмнэ. Шүдэнз ашиглан брандигаа галлаад хайруулын тавгаа гал дээрээ буцаан тавиад архи шатаж дуусахаар гич болон кремээ нэмнэ. Хутгаж нийцүүлээд 1 минут хуураад тунгалаг шөлөө нэмнэ. Дахин 1 минут буцалгаад Worcestershire болон халуун соусаа нэмээд гаргаж тависан мах болон цугласан шүүсийг нэмнэ. Махаа соусаар бүрээд ногоон сонгино яншуйгаа нэмээд
+2 хувааж таваглаад халуунаар нь сервислэнэ."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

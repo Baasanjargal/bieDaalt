@@ -1,0 +1,36 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/pirog"
+	    android:gravity="center"
+	    android:text="жимстэй аарцтай пирог
+Орц:
+500гр аарц, 
+300гр цєцгий, 
+1 уут сахарная пудра /элсэн чихэр хийж болно/,
+30гр желатин, 
+єєрийн дуртай жимс
+аарц болон цєцгийгєє тусд нь саванд хийн элсэн чихэр хийж сайтар хутгана /элсэн чихэр тус бvр 2 ц/х/  дараа нь желатинээ зааврынх нь дагуу бэлдээд аарц цєцгийтэйгээ ниилvvлж хутгана, бэлдсэн хэвэндээ жимсээ хэрчин нийж бэлдсэн зуурмагаа хийнэ, ингээд хєргєгчинд 2 цаг байлгаад жимсээр чимэглэнэ. за ингээд амттан маань бэлэн боллоо."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

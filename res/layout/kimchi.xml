@@ -1,0 +1,48 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/kimchi"
+	    android:gravity="center"
+	    android:text="Кимчижиггэ (Солонгос хоол)
+Орц:
+1. Болсон кимчи (бага зэрэг эссэн кимчи бол илүү амттай болно) - 300 г
+(5 см-ийн өргөнтэй хэрчинэ)
+2. Гахайн мах - 150-200 г
+3. Ус - 400 г
+4. Бяцалсан сармис - 1-2 хумс
+5. Бөөрөнхий сонгино -1/4 ш
+6. Ногоон сонгино - 1 ш
+7. Халуун чинжүү (Улаан, ногоон аль нь ч болно) - 1 ш
+8. Чинжүүний нунтаг - 1 ц/х
+9. Дашида (хоол амтлагч) - 1 ц/х
+10. Давс - маш бага
+11. Дүпү - 50-100 г
+Савандаа бага зэрэг тос хийж халаагаад гахайн махаа цагаан болтол нь хуурна.
+Хэрчиж бэлтгэсэн кимчигээ хийж 2-3 минут махтайгаа хуурна.
+Усаа хийж буцалгана.
+Ус буцалсаны дараа дашида, бөөрөнхий сонгино, чинжүүний нунтаг халуун чинжүү, бяцалсан сармис зэргийг хийж хутган кимчиг болтол нь буцалгана.
+Кимчиг болтол нь буцалгасны эцэст дүпү, ногоон сонгиноо хийнэ. Мөн маш бага давс хийж 2 минут орчим буцалгаад галаа унтрааж амттай кимчитэй шөлөө идэхэд бэлдэнэ.
+^.^ Энэ хоол нь будаатай цуг идэхэд зохимжтой хоол юм"
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

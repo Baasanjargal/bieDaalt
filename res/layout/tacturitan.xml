@@ -1,0 +1,35 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/tacturitan"
+	    android:gravity="center"
+	    android:text="Тагтуритан
+Амтат хоол сонирхогч бид бүхэнд Солонгос хоол хийх жор болон хийх аргыг байнга зааж өгч байдаг Баярмаа эгч маань энэ удаа Тагтуритан шөл хэрхэн хийх талаарх бичлэг ирүүлснийг өөрийх нь тайлбартай хүргэж байна. Тасалгааны цэцэг болон солонгос хоолны талаар илүү их мэдээлэл авахыг хүсвэл Баярмаа эгчийн http://blog.daum.net/mongollove сайтаар зочлохыг урьж байна. Бидэнд үргэлж амтат хоолны жор илгээдэг Баярмаа эгчдээ баярлалаа.
+
+Төмс, лууван, сонгино, ногоон чинжүүгээ хэрчиж бэлтгэнэ. Төмсөө том том хэрчвэл амттай болдог. Харин луувангаа хавтгай хэрчээрэй. Тахианы махаа угаагаад буцалж буй усанд дүрээд авна.Хайруулын тавгандаа тосоо хийж халаана.Тосондоо төмс, луувангаа шарж хуурна.Шарсан төмсөндөө махаа нэмж хуурна.Дээр нь нунтагласан сармис нэмнэ.Бас том том хэрчсэн сонгиноо нэмнэ.Бага зэрэг ус нэмээд таглаад тавиарай.Болохын үед улаан чинжүүний нунтагаа нэмээрэй. Халуун ногоотой идэж чадахгүй бол кочугару нэмэхгүй байсан ч болно.Гаргахын өмнө ногоон сонгиноо хийвэл амт, өнгө нь сайхан болно. Солонгос хоолонд ногоон сонгиныг голдуу ташуу хэрчдэг.Тавтай сайхан хооллоорой.
+"
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	   
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	   >
+
+	<Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>

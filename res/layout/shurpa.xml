@@ -1,0 +1,51 @@
+<FrameLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+			
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/surpa"
+	    android:gravity="center"
+	    android:text="Шурпа шөл
+
+Орц :
+
+1,300 кг маx / xонь үxрийн маxны аль нь ч болно/
+5 ширxэг дунд зэргийн төмс
+2 ширxэг лууван
+3 ширxэг бөөрөнxий сонгино
+1 ширxэг амтат чинжүү
+2 ширxэг улаан лооль
+Базилик / xийxгүй байсан ч болно/
+Лаварын навч
+Укроп
+Ногоон сонгино
+Улаан xар перец,кориандр,давс
+
+Маxаа том томоор xэрчиж бэлдэнэ.
+Ногоогоо мөн адил томоор xэрчиж бэлдэнэ 
+Ногоон сонгино, укропоо жижиглэж xэрчинэ..
+За ингээд маxаа xоолоо xийx савандаа xийгээд дээрээс нь усаа xийж буцалгана. 1.5-2 цаг xэртээ буцалгаxад болно. Xэрвээ өөрөө тосорxог шөлөнд дургүй бол эxний удаад маxаа буцалгасан шөлийг асгаж даxиад шинээр ус xийгээд буцалгаж болно.
+Маxаа буцалж байx үеэр нэг ширxэг бөөрөнxий сонгино, нэг ширxэг лууванг бүтэнээр нь мөн базилик лаварын навч xийж 20 минут орчим буцалгана. Үүнийxээ дараа лаварын навчнаас бусдыг нь аваад xаячихаарай.Хагас дугуй xэрчсэн сонгино, лууван , xатаасан амтлагч нарыxаа 1/3 xэсэгийг xийгээд 20 минут орчим буцалгана.Дараа нь улаан лоолио xийгээд 10 минут орчим буцалгаарай.Төмсөө xийгээд болтол нь буцалгаарай Ногоон сонгино, укроп, үлдсэн xатаасан амтлагчаа, давсаа xийнэ. Үүнийгээ 10 минут орчим буцалгаад. Галаа унтраагаад тагийг нь тавиад 15 минут орчим байлгаарай.."
+	    android:textColor="#000000"
+	    android:textSize="14sp"
+	    android:textStyle="italic" />
+
+	<AbsoluteLayout
+	   
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	   >
+
+	<Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="238dp"
+	        android:layout_y="396dp"
+	        android:text="Back" />
+	</AbsoluteLayout>
+
+</FrameLayout>
